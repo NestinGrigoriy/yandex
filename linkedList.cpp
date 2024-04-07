@@ -121,17 +121,4 @@ public:
 	}	
 };
 int main() {
-	linkedList list;
-	linkedList list1;
-	list1.Append(5);
-	list1.Append(6);
-	list1.Append(10);
-	list1.Append(55);
-	list = list1;
-	list1.printList();
-	cout << endl;
-	list.printList();
-	if (list == list1) {
-		cout << "wqewqewqewqewqe";
-	}
 }
